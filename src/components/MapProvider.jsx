@@ -30,6 +30,8 @@ export default function MapProvider({
     libraries,
   });
 
+  //VITE_GOOGLE_MAPS_API_KEY=AIzaSyAcjmuXy7ekbxTRZvPYw_TgL26-ktZ8iMk
+
   const [pendingPos, setPendingPos] = useState(null);
   const [pendingPinType, setPendingPinType] = useState(null);
   const mapRef = useRef(null);
